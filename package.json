@@ -2,7 +2,8 @@
   "name": "vite-vue3",
   "private": true,
   "homepage":"https://761157897.github.io/vite-vue3",
-  "version": "0.0.0",
+  "version": "0.0.0", 
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
