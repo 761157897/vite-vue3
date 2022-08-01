@@ -2,7 +2,6 @@
   "name": "vite-vue3",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -29,6 +28,7 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
-    }
+    },
+  "requires": true
   }
 }

@@ -1,13 +1,3 @@
-/*
- * @Author: fengjun fengjun@shgbit.com
- * @Date: 2022-08-01 16:29:11
- * @LastEditors: fengjun fengjun@shgbit.com
- * @LastEditTime: 2022-08-01 16:29:22
- * @FilePath: \vite-vue3\.cz-config.js
- * @Description: 
- * 
- * Copyright (c) 2022 by fengjun fengjun@shgbit.com, All Rights Reserved. 
- */
 module.exports = {
   // type 类型（定义之后，可通过上下键选择）
   types: [
@@ -85,7 +75,7 @@ module.exports = {
   // skipQuestions: ['body', 'footer'],
 
   // subject 限制长度
-  subjectLimit: 100
+  subjectLimit: 100,
   breaklineChar: '|', // 支持 body 和 footer
   // footerPrefix : 'ISSUES CLOSED:'
   // askForBreakingChangeFirst : true,
