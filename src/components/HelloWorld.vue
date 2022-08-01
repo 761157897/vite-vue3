@@ -2,7 +2,7 @@
  * @Author: fengjun fengjun@shgbit.com
  * @Date: 2022-08-01 16:03:32
  * @LastEditors: fengjun fengjun@shgbit.com
- * @LastEditTime: 2022-08-01 16:22:44
+ * @LastEditTime: 2022-08-01 17:36:54
  * @FilePath: \vite-vue3\src\components\HelloWorld.vue
  * @Description: 
  * 
@@ -20,7 +20,7 @@ const count = ref(0)
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button type="button" @click="count++">数量是 {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR

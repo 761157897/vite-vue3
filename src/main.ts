@@ -2,7 +2,7 @@
  * @Author: fengjun fengjun@shgbit.com
  * @Date: 2022-08-01 16:03:32
  * @LastEditors: fengjun fengjun@shgbit.com
- * @LastEditTime: 2022-08-01 16:48:00
+ * @LastEditTime: 2022-08-01 17:36:17
  * @FilePath: \vite-vue3\src\main.ts
  * @Description: 
  * 
@@ -15,6 +15,7 @@ import App from './App.vue'
 import router from './router/index'
 import store from './store/index'
 import ElementPlus from 'element-plus'
+
 import 'element-plus/dist/index.css'
 
 createApp(App).use(router, store, ElementPlus).mount('#app')
